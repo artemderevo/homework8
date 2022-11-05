@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int populationY = 12_000_000;
-        int yearFertility = 17 * (populationY / 1000);
-        int yearMortality = 8 * (populationY / 1000);
-        int year = 0;
-        while (year < 10) {
-            year = year + 1;
-            populationY = populationY + yearFertility - yearMortality;
-            System.out.println("Год " + year + " численность населения составляет " + populationY);
+        int contribution = 15000;
+        int total = 0;
+        int month = 0;
+        for (;total < 12_000_000;) {
+            contribution = contribution + contribution/100 * 7;
+            total = contribution;
+            month = month + 1;
+            System.out.println("Месяц " + month + ", сумма накоплений " + total + " рублей");
         }
 
     }
