@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int meteorite = 0;
-        for ( int year = 0; year <=2000; year++) {
-            meteorite = 79 + meteorite;
-            year = meteorite;
-            System.out.println(meteorite);
+        for ( int i = 2; i<=31; i+=7) {
+            System.out.println("Сегодня пятница " + i + "-е число. Необходимо подготовить отчет");
+
         }
+
     }
 }
