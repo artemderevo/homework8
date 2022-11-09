@@ -7,7 +7,7 @@ public class Main {
             contribution = contribution + contribution/100 * 7;
             total = contribution;
             month = month + 1;
-            System.out.println("Месяц " + month + ", сумма накоплений " + total + " рублей");
+            System.out.println("Месяц " + month + ", сумма накоплений " + total + " рублей.");
         }
 
     }
