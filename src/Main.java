@@ -8,7 +8,7 @@ public class Main {
             total = contribution;
             month = month + 1;
             if (month % 6 ==0) {
-                System.out.println("Месяц " + month + ", сумма накоплений " + total + " рублей");
+                System.out.println("Месяц " + month + ", сумма накоплений " + total + " рублей.");
             }
 
         }
