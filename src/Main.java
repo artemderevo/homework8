@@ -6,7 +6,7 @@ public class Main {
             System.out.print(i + " ");
         }
         System.out.println("");
-        for (i = 10; i >=1; i--) {
+        for (i = 10; i >= 1; i--) {
         System.out.print(i + " ");
         }
     }
