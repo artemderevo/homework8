@@ -1,11 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 0;
-        int z = 2;
-        for (int i = 2; i  <= 20; i+=2) {
-            x= x+1;
-            System.out.println(z + "*" + x + "=" + i);
-
+        int meteorite = 0;
+        for ( int year = 0; year <=2122; year++) {
+            meteorite = 79 + meteorite;
+            year = meteorite;
+            if (meteorite > 1822 && meteorite < 2122)
+                System.out.println(meteorite);
         }
+
     }
 }
